@@ -1,0 +1,20 @@
+probot:
+  app_id: agentguard
+  private_key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    (your GitHub App private key)
+    -----END RSA PRIVATE KEY-----
+  webhook_secret: your-webhook-secret
+
+agentguard:
+  min_severity: MEDIUM
+  block_on:
+    - CRITICAL
+  scan_paths:
+    - src/
+    - agents/
+  ignore_rules: []
+
+server:
+  port: 3000
+  host: 0.0.0.0
