@@ -1,6 +1,6 @@
 # AgentGuard GitHub App
 
-> **Automated AI agent security reviews on every PR.** Integrates AgentGuard into your GitHub workflow — scans diffs for OWASP ASI Top 10 vulnerabilities and posts review comments.
+> **Automated AI agent security reviews on every PR.** Integrates AgentGuard into your GitHub workflow - scans diffs for OWASP ASI Top 10 vulnerabilities and posts review comments.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
@@ -63,7 +63,7 @@ jobs:
           import json, sys
           data = json.load(sys.stdin)
           if data['findings']:
-              msg = '## 🛡️ AgentGuard Security Review\n\n'
+              msg = '##  AgentGuard Security Review\n\n'
               msg += f'Found **{len(data[\"findings\"])}** security findings:\n\n'
               for f in data['findings']:
                   msg += f'- [{f[\"severity\"]}] {f[\"rule_name\"]} at {f[\"file\"]}:{f[\"line\"]}\n'
@@ -99,7 +99,7 @@ scan_paths:
 
 ## Supported Checks
 
-All 10 OWASP ASI Top 10 categories — see [AgentGuard](https://github.com/dockfixlabs/agentguard#detection-rules).
+All 10 OWASP ASI Top 10 categories - see [AgentGuard](https://github.com/dockfixlabs/agentguard#detection-rules).
 
 ## License
 
