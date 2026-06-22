@@ -1,5 +1,5 @@
 dfx-agentguard>=0.2.0
-fastapi>=0.100
+fastapi>=0.138.0
 uvicorn>=0.20
 httpx>=0.24
 pyyaml>=6.0
