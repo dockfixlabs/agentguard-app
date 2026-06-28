@@ -1,5 +1,5 @@
 dfx-agentguard>=0.2.0
 fastapi>=0.138.1
-uvicorn>=0.20
+uvicorn>=0.49.0
 httpx>=0.28.1
 pyyaml>=6.0
