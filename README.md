@@ -1,4 +1,4 @@
-﻿# AgentGuard GitHub App
+# AgentGuard GitHub App
 
 > **Automated AI agent security reviews on every PR.** Integrates AgentGuard into your GitHub workflow - scans diffs for OWASP ASI Top 10 vulnerabilities and posts review comments.
 
