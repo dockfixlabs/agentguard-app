@@ -1,4 +1,4 @@
-dfx-agentguard>=0.2.0
+dfx-agentguard>=0.6.6
 fastapi>=0.138.1
 uvicorn>=0.20
 httpx>=0.28.1
